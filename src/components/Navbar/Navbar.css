@@ -1,0 +1,26 @@
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-text {
+  color: #9e9e9e !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+
+.phone-text {
+  color: #9e9e9e;
+}
+
+.email-text {
+  color: #9e9e9e;
+}
+
+@media screen and (max-width: 575px) {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,62 @@
+.portfolio-section {
+    padding: 4rem 4rem;
+}
+
+.portfolio-text-heading {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding: 0rem 8rem 0rem 0rem;
+    text-align: end;
+}
+
+.cap-letter {
+    font-size: 75px;
+}
+
+.portfolio-text-heading::before {
+    content: "";
+    height: 2px;
+    width: 220px;
+    background-color: #cbcbcb;
+    position: absolute;
+    top: 76px;
+    right: -107px;
+}
+
+.portfolio-link {
+    font-size: 22px;
+    
+}
+
+.urls {
+    padding: 2rem;
+    border-bottom: 1px dotted #cbcbcb;
+}
+
+.desc-text {
+    color: #cbcbcb;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-section{
+      padding: 2rem 0rem;
+    }
+    .portfolio-text-heading {
+      padding: 0;
+      text-align: center    ;
+    }
+    .portfolio-text-heading::before {
+      top: 100px;
+      left: 7rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 575px) {
+    .portfolio-text-heading::before {
+     display: none;
+    }
+  }

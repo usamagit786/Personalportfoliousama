@@ -1,0 +1,100 @@
+.skill-section {
+    padding: 4rem 4rem;
+}
+
+.skill-heading {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding: 0rem 8rem 0rem 0rem;
+    text-align: end;
+}
+
+.cap-letter {
+    font-size: 75px;
+}
+
+.skill-heading::before {
+    content: "";
+    height: 2px;
+    width: 220px;
+    background-color: #cbcbcb;
+    position: absolute;
+    top: 76px;
+    right: -107px;
+}
+
+.progress-wrapper .progress-bar {
+    background-color: #cbcbcb !important;
+    height: 10px !important;
+}
+
+.progress-wrapper .progress {
+    background-color: #000 !important;
+    height: 10px !important;
+    border: 1px solid #cbcbcb;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    color: #cbcbcb;
+}
+
+.percentage {
+    font-size: 18px;
+    color: #cbcbcb;
+    text-align: end;
+    padding: 0.5rem 0rem;
+}
+
+.other-skill {
+    color: #cbcbcb;
+    padding: 1rem 0rem;
+}
+
+.certificate-section {
+    padding: 0rem 4rem;
+}
+
+.certificate-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.desc {
+    color: #cbcbcb;
+    padding: 0.3rem 0rem;
+}
+
+.desc-bold {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .skill-section{
+      padding: 2rem 0rem;
+    }
+    .skill-heading {
+      padding: 0;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .skill-heading::before {
+      top: 95px;
+      left: 7rem;
+    }
+    .certificate-section {
+        padding: 0rem 0rem;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    .skill-heading::before {
+     display: none;
+    }
+  }

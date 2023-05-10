@@ -1,0 +1,25 @@
+.hero-section {
+    font-size: 48px;
+    color: #cbcbcb;
+    font-family: monospace;
+    text-align: center;
+    line-height: 52px;
+    padding: 8rem 0rem 4rem 0rem;
+}
+
+.cap-letter {
+    font-size: 75px;
+}
+
+.information {
+    text-align: center;
+    color: #cbcbcb;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+    .hero-section {
+        font-size: 36px;
+        padding:4rem 0rem 4rem 0rem;
+    }
+}
